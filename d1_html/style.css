@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #e8edf0;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    width: 700px;
+    min-height: 460px;
+    margin: 50px auto;
+    background-color: white;
+    border: 1px solid #222;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.topbar {
+    height: 52px;
+    padding: 0 26px;
+    background-color: #1c1c1c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content {
+    display: flex;
+    min-height: 390px;
+}
+.sidebar {
+    width: 200px;
+    padding: 22px;
+    border-right: 1px solid #d4d4d4;
+    background-color: #fafafa;
+}
+.profile-picture {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 25px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    background-color: #e1e5e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.side-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.side-menu li {
+    border-bottom: 1px solid #dddddd;
+}
+
+.side-menu a {
+    display: block;
+    padding: 12px 4px;
+    color: #222;
+    text-decoration: none;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.main-content {
+    flex: 1;
+    padding: 16px;
+}
+.section-label {
+    margin: 0 0 7px;
+    font-size: 11px;
+}
+.story-card {
+    min-height: 300px;
+    padding: 16px;
+    border: 1px solid #222;
+    border-radius: 3px;
+}
+
+.story-card h1 {
+    margin: 0 0 10px;
+    font-size: 25px;
+}
+
+.story-card p {
+    margin: 0 0 16px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: white;
+    color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.brand-name {
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.menu .contact-button {
+    padding: 8px 14px;
+    background-color: #f1f1f1;
+    color: #111;
+    border-radius: 4px;
+}
+.footer {
+    height: 38px;
+    padding: 0 26px;
+    background-color: #1c1c1c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 10px;
+}
