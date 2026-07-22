@@ -1,6 +1,7 @@
 * {
-    box-sizing: border-box;     
+    box-sizing: border-box;
 }
+
 body {
     margin: 0;
     background-color: #e8edf0;
@@ -12,7 +13,7 @@ body {
 }
 
 .page {
-    width: 760px;
+    width: min(95%, 47.5rem);
     min-height: 460px;
     margin: 50px auto;
     background-color: white;
@@ -20,6 +21,7 @@ body {
     border-radius: 4px;
     overflow: hidden;
 }
+
 .topbar {
     height: 52px;
     padding: 0 26px;
@@ -29,16 +31,19 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .content {
     display: flex;
     min-height: 390px;
 }
+
 .sidebar {
     width: 200px;
     padding: 22px;
     border-right: 1px solid #d4d4d4;
     background-color: #fafafa;
 }
+
 .profile-picture {
     width: 90px;
     height: 90px;
@@ -48,8 +53,9 @@ body {
     overflow: hidden;
     background-color: #e1e5e8;
 }
+
 .profile-picture img {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
@@ -75,6 +81,7 @@ body {
     font-size: 11px;
     text-transform: uppercase;
 }
+
 .menu-icon {
     width: 20px;
     height: 20px;
@@ -86,14 +93,17 @@ body {
     font-size: 11px;
     font-weight: bold;
 }
+
 .main-content {
     flex: 1;
     padding: 16px;
 }
+
 .section-label {
     margin: 0 0 7px;
     font-size: 11px;
 }
+
 .story-card {
     min-height: 300px;
     padding: 18px 20px;
@@ -112,10 +122,13 @@ body {
     font-size: 12px;
     line-height: 1.45;
 }
+
 .brand {
     display: flex;
     align-items: center;
     gap: 8px;
+    color: white;
+    text-decoration: none;
 }
 
 .logo {
@@ -134,7 +147,7 @@ body {
 .brand-name {
     font-size: 14px;
     font-weight: bold;
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .menu {
@@ -143,7 +156,8 @@ body {
     gap: 20px;
 }
 
-.menu a {
+.menu a,
+.menu .nav-link {
     color: white;
     text-decoration: none;
     font-size: 11px;
@@ -155,6 +169,7 @@ body {
     color: #111;
     border-radius: 4px;
 }
+
 .footer {
     height: 38px;
     padding: 0 26px;
@@ -169,20 +184,23 @@ body {
     margin: 0;
     font-size: 10px;
 }
+
 .story-row {
     display: flex;
     align-items: flex-start;
     gap: 18px;
     margin-bottom: 8px;
+    flex-wrap: wrap;
 }
 
 .story-row p {
     flex: 1;
 }
+
 .story-icon {
     width: 36px;
     height: 36px;
-     min-width: 36px;
+    min-width: 36px;
     border: 1px solid #222;
     border-radius: 4px;
     display: flex;
@@ -191,6 +209,14 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
+.skills-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+/* Adjusts the main layout for tablet and mobile screens */
 @media (max-width: 800px) {
     .page {
         width: calc(100% - 24px);
@@ -208,27 +234,59 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         gap: 12px;
-    }
-
-    .content {
-        flex-direction: column;
-    }
-
-    .sidebar {
         width: 100%;
-        border-right: 0;
-        border-bottom: 1px solid #d4d4d4;
     }
 
-    .side-menu {
-        max-width: 360px;
-        margin: 0 auto;
-    }
-
-    .footer {
-        height: auto;
-        padding: 14px 18px;
-        flex-direction: column;
+    .navbar-nav {
+        align-items: flex-start;
         gap: 8px;
+        padding-top: 12px;
+    }
+
+    .contact-button {
+        width: fit-content;}
+
+        .content {
+            flex-direction: column;
+        }
+
+        .sidebar {
+            width: 100%;
+            border-right: 0;
+            border-bottom: 1px solid #d4d4d4;
+        }
+
+        .side-menu {
+            max-width: 360px;
+            margin: 0 auto;
+        }
+
+        .footer {
+            height: auto;
+            padding: 14px 18px;
+            flex-direction: column;
+            gap: 8px;
+        }
+    }
+    .screen-warning {
+    display: none;
+}
+/* Shows a warning instead of the page when the screen is too narrow for the layout */
+@media (max-width: 20rem) {
+    .page {
+        display: none;
+    }
+
+    .screen-warning {
+        min-height: 100vh;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #1c1c1c;
+        color: white;
+        font-family: Arial, sans-serif;
+        
     }
 }
