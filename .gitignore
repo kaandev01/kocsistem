@@ -2,3 +2,4 @@ taskflow/
 .vscode/
 .env
 .env.*
+d4_guid_compare/
