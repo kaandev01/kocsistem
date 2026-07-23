@@ -1,0 +1,15 @@
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\bin\Debug\net10.0\d3_console.exe
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\bin\Debug\net10.0\d3_console.deps.json
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\bin\Debug\net10.0\d3_console.runtimeconfig.json
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\bin\Debug\net10.0\d3_console.dll
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\bin\Debug\net10.0\d3_console.pdb
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\obj\Debug\net10.0\d3_console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\obj\Debug\net10.0\d3_console.AssemblyInfoInputs.cache
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\obj\Debug\net10.0\d3_console.AssemblyInfo.cs
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\obj\Debug\net10.0\d3_console.csproj.CoreCompileInputs.cache
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\obj\Debug\net10.0\d3_console.sourcelink.json
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\obj\Debug\net10.0\d3_console.dll
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\obj\Debug\net10.0\refint\d3_console.dll
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\obj\Debug\net10.0\d3_console.pdb
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\obj\Debug\net10.0\d3_console.genruntimeconfig.cache
+C:\Users\Batuhan\OneDrive\Masaüstü\kocsistem-main\kocsistem\d3_console\obj\Debug\net10.0\ref\d3_console.dll
